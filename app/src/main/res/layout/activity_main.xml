@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- Movie Name Input -->
+    <EditText
+        android:id="@+id/movieNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_movie_name"
+        android:layout_marginBottom="16dp"
+        android:inputType="text"/>
+
+    <!-- Rating Bar -->
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Comments Input -->
+    <EditText
+        android:id="@+id/commentsInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_comments"
+        android:layout_marginBottom="16dp"
+        android:inputType="textMultiLine"/>
+
+    <!-- Checkbox (Not Covered in Lecture) -->
+    <CheckBox
+        android:id="@+id/recommendCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/would_recommend"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Display Button -->
+    <Button
+        android:id="@+id/displayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/display_button_text"/>
+
+    <!-- Result TextView -->
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp"/>
+</LinearLayout>

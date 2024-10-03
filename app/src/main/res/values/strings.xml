@@ -1,0 +1,11 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Rating App</string>
+
+    <!-- UI Text -->
+    <string name="enter_movie_name">Enter Movie Name</string>
+    <string name="enter_comments">Enter Comments</string>
+    <string name="display_button_text">Display Rating</string>
+    <string name="would_recommend">Would you recommend this movie?</string>
+    <string name="rating_result">Movie: %1$s\nRating: %2$.1f/5\nComments: %3$s\nRecommend: %4$s</string>
+</resources>
