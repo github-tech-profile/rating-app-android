@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 class MainActivity : AppCompatActivity() {
 
     // Model object
+    // change1
     private val rating = Rating()
 
     override fun onCreate(savedInstanceState: Bundle?) {
